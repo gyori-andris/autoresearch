@@ -1,0 +1,9 @@
+{
+  "id": "scverse-mean-var",
+  "title": "Fast-array-utils: sparse mean/variance",
+  "status": "rejected",
+  "reported_speedup": null,
+  "result": "Resource gate failed; no accepted speedup.",
+  "mechanism": "Explore fused reductions and loop structure.",
+  "limitation": "Warm timing does not excuse the reported approximately 30 GiB / 17-minute JIT path. Older bounded candidates need separate replay."
+}

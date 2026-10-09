@@ -1,0 +1,9 @@
+{
+  "id": "scverse-sparse-dense",
+  "title": "Fast-array-utils: sparse to dense",
+  "status": "no-accepted-win",
+  "reported_speedup": null,
+  "result": "Approximately 1.019× near miss, below acceptance threshold.",
+  "mechanism": "Unroll scatter loops and investigate vectorised stores.",
+  "limitation": "Allocation, zeroing and page faults need matched accounting; no accepted result."
+}

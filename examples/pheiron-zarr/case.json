@@ -1,0 +1,9 @@
+{
+  "id": "pheiron-zarr",
+  "title": "Pheiron: Zarr reads",
+  "status": "reported",
+  "reported_speedup": 3.5,
+  "result": "1944 → 551.3 ms; reported candidate trials 541.8, 551.3, 561.3 ms.",
+  "mechanism": "Consolidate metadata requests and avoid an unused cold Dask import.",
+  "limitation": "Cold-start and metadata effects; do not present as faster arithmetic or cached-result reuse. Early local contract needs phase matching."
+}

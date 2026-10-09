@@ -1,0 +1,9 @@
+{
+  "status": "partial evidence",
+  "narrative_source": "Case summary and recorded validation",
+  "raw_samples_attached": false,
+  "missing": [
+    "complete trial ledger tied to retained source",
+    "reproduction environment and exact candidate source bundle"
+  ]
+}

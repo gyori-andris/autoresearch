@@ -1,0 +1,227 @@
+{
+  "provenance": {
+    "native_build": "isolated temporary build from retained source; original frozen gcc flags",
+    "scope": "diagnostic replay; unchanged computation/checks; added absolute timing capture"
+  },
+  "result": {
+    "absolute_samples_ms": {
+      "f32_d0001_raw:csc": [
+        {
+          "candidate_ms": 127.694921,
+          "reference_ms": 349.396207
+        },
+        {
+          "candidate_ms": 99.023423,
+          "reference_ms": 331.570838
+        },
+        {
+          "candidate_ms": 104.719173,
+          "reference_ms": 344.313958
+        },
+        {
+          "candidate_ms": 102.116303,
+          "reference_ms": 324.740929
+        },
+        {
+          "candidate_ms": 128.888442,
+          "reference_ms": 384.856115
+        },
+        {
+          "candidate_ms": 104.413333,
+          "reference_ms": 347.700748
+        }
+      ],
+      "f32_d0001_raw:csr": [
+        {
+          "candidate_ms": 96.000143,
+          "reference_ms": 299.576971
+        },
+        {
+          "candidate_ms": 93.400053,
+          "reference_ms": 294.854621
+        },
+        {
+          "candidate_ms": 98.735803,
+          "reference_ms": 292.756621
+        },
+        {
+          "candidate_ms": 108.634133,
+          "reference_ms": 294.555781
+        },
+        {
+          "candidate_ms": 118.152682,
+          "reference_ms": 336.812687
+        },
+        {
+          "candidate_ms": 111.962382,
+          "reference_ms": 312.579249
+        }
+      ],
+      "f32_d001_lzf:csc": [
+        {
+          "candidate_ms": 466.478509,
+          "reference_ms": 1072.504169
+        },
+        {
+          "candidate_ms": 469.092109,
+          "reference_ms": 1075.319889
+        },
+        {
+          "candidate_ms": 459.0297,
+          "reference_ms": 1064.664671
+        },
+        {
+          "candidate_ms": 495.481098,
+          "reference_ms": 1083.58825
+        },
+        {
+          "candidate_ms": 488.134148,
+          "reference_ms": 1199.362841
+        },
+        {
+          "candidate_ms": 488.057388,
+          "reference_ms": 1088.406539
+        }
+      ],
+      "f32_d001_lzf:csr": [
+        {
+          "candidate_ms": 456.8281,
+          "reference_ms": 664.467106
+        },
+        {
+          "candidate_ms": 471.633529,
+          "reference_ms": 680.015915
+        },
+        {
+          "candidate_ms": 454.200441,
+          "reference_ms": 660.958836
+        },
+        {
+          "candidate_ms": 468.324159,
+          "reference_ms": 665.849206
+        },
+        {
+          "candidate_ms": 469.241429,
+          "reference_ms": 683.827285
+        },
+        {
+          "candidate_ms": 471.221169,
+          "reference_ms": 686.475555
+        }
+      ],
+      "f32_d010_gzip1:csc": [
+        {
+          "candidate_ms": 568.409363,
+          "reference_ms": 1184.030542
+        },
+        {
+          "candidate_ms": 565.132473,
+          "reference_ms": 1231.007009
+        },
+        {
+          "candidate_ms": 560.189043,
+          "reference_ms": 1151.151684
+        },
+        {
+          "candidate_ms": 551.411813,
+          "reference_ms": 1179.860122
+        },
+        {
+          "candidate_ms": 680.052746,
+          "reference_ms": 1213.624141
+        },
+        {
+          "candidate_ms": 561.671603,
+          "reference_ms": 1187.265822
+        }
+      ],
+      "f32_d010_gzip1:csr": [
+        {
+          "candidate_ms": 560.271373,
+          "reference_ms": 789.394898
+        },
+        {
+          "candidate_ms": 521.309905,
+          "reference_ms": 767.17253
+        },
+        {
+          "candidate_ms": 510.046847,
+          "reference_ms": 815.460156
+        },
+        {
+          "candidate_ms": 503.472498,
+          "reference_ms": 773.85696
+        },
+        {
+          "candidate_ms": 564.605233,
+          "reference_ms": 776.684219
+        },
+        {
+          "candidate_ms": 512.667456,
+          "reference_ms": 790.193528
+        }
+      ]
+    },
+    "case_median_ratios": {
+      "f32_d0001_raw:csc": 0.30929664846118216,
+      "f32_d0001_raw:csr": 0.3440294099027328,
+      "f32_d001_lzf:csc": 0.43558912382660564,
+      "f32_d001_lzf:csr": 0.6873473196165876,
+      "f32_d010_gzip1:csc": 0.47657149879626737,
+      "f32_d010_gzip1:csr": 0.6650612886410698
+    },
+    "case_sample_ratios": {
+      "f32_d0001_raw:csc": [
+        0.36547311745716804,
+        0.298649373380659,
+        0.3041386228088958,
+        0.3144546741134685,
+        0.3349003354149641,
+        0.30029654408451256
+      ],
+      "f32_d0001_raw:csr": [
+        0.32045234545081236,
+        0.3167664548828624,
+        0.33726240814891767,
+        0.36880665737129087,
+        0.35079641165654785,
+        0.35818878686985395
+      ],
+      "f32_d001_lzf:csc": [
+        0.4349433060338994,
+        0.4362349416193119,
+        0.43114955582103653,
+        0.45725957069025064,
+        0.40699455687071767,
+        0.44841460475643097
+      ],
+      "f32_d001_lzf:csr": [
+        0.6875104815196075,
+        0.6935624866956239,
+        0.6871841577135676,
+        0.703348678319217,
+        0.6861987511949015,
+        0.6864354681937654
+      ],
+      "f32_d010_gzip1:csc": [
+        0.4800630919873687,
+        0.4590814421593598,
+        0.48663356079493,
+        0.46735354701648274,
+        0.560348729912089,
+        0.4730799056051661
+      ],
+      "f32_d010_gzip1:csr": [
+        0.7097479023736989,
+        0.6795210785245399,
+        0.6254712057323375,
+        0.6506014987575999,
+        0.7269430988657696,
+        0.6487872120359862
+      ]
+    },
+    "peak_rss_mb": 569.734375,
+    "relative_geomean": 0.4649100828261746,
+    "status": "pass"
+  }
+}

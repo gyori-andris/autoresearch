@@ -1,0 +1,10 @@
+{
+  "status": "case-study summary",
+  "narrative_source": "Case summary and recorded validation",
+  "raw_samples_attached": false,
+  "missing": [
+    "complete trial ledger tied to retained source",
+    "reproduction environment and exact candidate source bundle"
+  ],
+  "evidence_scope": "Reported engineering result. Internal source, datasets, run logs and implementation identifiers are not distributed."
+}

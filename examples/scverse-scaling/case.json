@@ -1,0 +1,9 @@
+{
+  "id": "scverse-scaling",
+  "title": "Scanpy: sparse scaling",
+  "status": "not-enrolled",
+  "reported_speedup": null,
+  "result": "No accepted optimisation result.",
+  "mechanism": "Profiling must establish an actionable native bottleneck before search.",
+  "limitation": "Profiling gate remained closed; absence of a result is not evidence that optimisation is impossible."
+}

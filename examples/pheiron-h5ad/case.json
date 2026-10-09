@@ -1,0 +1,9 @@
+{
+  "id": "pheiron-h5ad",
+  "title": "Pheiron: selected H5AD reads",
+  "status": "reported",
+  "reported_speedup": 7.3,
+  "result": "3396 → 465 ms for a 5,000-cell selection; 2182 → 997 MiB reported.",
+  "mechanism": "Read only the selected CSR data interval and rebase row pointers.",
+  "limitation": "Later remote-read result is not the early local full-read contract. Aggregate checks are not full sparse-output equality."
+}

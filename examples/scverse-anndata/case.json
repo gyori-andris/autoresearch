@@ -1,0 +1,9 @@
+{
+  "id": "scverse-anndata",
+  "title": "AnnData: dense H5AD to CSR/CSC",
+  "status": "replayed",
+  "reported_speedup": null,
+  "result": "The replay supplies six paired samples for each of six cases. A separate independent audit reports approximately 2.19×.",
+  "mechanism": "HDF5-aware traversal, direct sparse construction and native implementation reduce allocation and conversion overhead.",
+  "limitation": "Warm page cache, one EPYC 7B12 core; conversion from open HDF5, not full public read_h5ad or remote I/O. Replay is not proof of historical retention compliance."
+}

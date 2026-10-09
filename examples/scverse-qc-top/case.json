@@ -1,0 +1,9 @@
+{
+  "id": "scverse-qc-top",
+  "title": "Scanpy: top-expression proportions",
+  "status": "rejected",
+  "reported_speedup": null,
+  "result": "Historical 2.18× fixture result is not an accepted general-purpose win.",
+  "mechanism": "Shortcut for rows with few stored values avoids selection work.",
+  "limitation": "Signed data breaks the shortcut when implicit zeros outrank negative stored entries."
+}

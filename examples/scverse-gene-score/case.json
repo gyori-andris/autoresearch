@@ -1,0 +1,9 @@
+{
+  "id": "scverse-gene-score",
+  "title": "Scanpy: gene scoring",
+  "status": "qualified",
+  "reported_speedup": 1.77,
+  "result": "Composite 37.1468614 → 20.9908523 ns/nonzero; public-call improvement reported as 8.24%.",
+  "mechanism": "Optimise sparse reductions; distinguish kernel timing from the public API.",
+  "limitation": "Duplicate-coordinate NaNs fail dense equivalence in baseline and candidate. This is a pre-existing assumption, not an established new regression. Composite is not public-call speedup."
+}

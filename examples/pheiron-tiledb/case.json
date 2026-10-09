@@ -1,0 +1,9 @@
+{
+  "id": "pheiron-tiledb",
+  "title": "Pheiron: TileDB sparse reads",
+  "status": "reported",
+  "reported_speedup": 12,
+  "result": "617 → approximately 51 ms for the reported local synthetic full read.",
+  "mechanism": "Encode integer positions at write time, avoid redundant coordinate output and sorting during reads.",
+  "limitation": "The measured improvement includes a write-time representation change and query-path changes. It is not an isolated ISA gain; the internal implementation is not distributed here."
+}

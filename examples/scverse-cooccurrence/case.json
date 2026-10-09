@@ -1,0 +1,9 @@
+{
+  "id": "scverse-cooccurrence",
+  "title": "Squidpy: spatial co-occurrence",
+  "status": "rejected",
+  "reported_speedup": null,
+  "result": "Reported 1.86× one-core candidate did not satisfy the full contract.",
+  "mechanism": "Reduce pairwise counting overhead.",
+  "limitation": "Multicore regression and memory-measurement confounding prevent an accepted claim."
+}

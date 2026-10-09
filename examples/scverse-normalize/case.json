@@ -1,0 +1,9 @@
+{
+  "id": "scverse-normalize",
+  "title": "Scanpy: normalize_total",
+  "status": "no-accepted-win",
+  "reported_speedup": null,
+  "result": "Best reported approximately 1.12× candidate was rejected.",
+  "mechanism": "NumPy reduceat substitution.",
+  "limitation": "Insufficient stable accepted gain; do not display the historical best as retained."
+}

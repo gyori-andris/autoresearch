@@ -1,0 +1,9 @@
+{
+  "id": "scverse-neighbors",
+  "title": "Scanpy: exact neighbours",
+  "status": "not-enrolled",
+  "reported_speedup": null,
+  "result": "No accepted optimisation result.",
+  "mechanism": "Most public runtime belongs to scikit-learn rather than a Scanpy-owned kernel.",
+  "limitation": "A replacement adapter requires an explicit new implementation boundary and tests, not a silent scope expansion."
+}

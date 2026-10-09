@@ -1,0 +1,6 @@
+[project]
+name = "autoresearch-companion"
+version = "0.1.0"
+description = "Planner and runner skills for contract-driven engineering optimisation"
+requires-python = ">=3.11"
+dependencies = ["marimo>=0.19,<1", "matplotlib>=3.9,<4", "markdown>=3.8,<4"]
